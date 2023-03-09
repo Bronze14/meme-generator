@@ -4,12 +4,8 @@ import App from "./App"
 import "./style.css"
 export default function Index(){
     return (
-
         <App />
-
-
     )
 }
-
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(<Index/>)
